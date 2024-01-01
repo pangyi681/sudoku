@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+background-color: #36467a8f;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(9, 0fr);
+  gap: 4px;
+  margin-bottom: 20px;
+
+}
+
+input {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  color: rgb(23, 34, 90);
+  background-color: rgb(161, 174, 225);
+  
+}
+.buttons-container {
+  display: flex;
+  justify-content: center; /* 水平置中 */
+}
+button {
+  width: 90;
+  height: 90;
+  padding: 20px 30px;
+  font-size: px;
+  background-color: #4572a0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ margin:0 20px;
+ margin-top: 60px;
+}
+
+button:hover {
+  background-color: #4572a0;
+}
+.table-container {
+  width: 100%; /* 讓容器寬度擴展到整個視窗寬度 */
+  display: flex;
+  justify-content: center; /* 水平置中 */
+  margin-top: 50px; /* 距離上方 50px */
+}
+h1{
+  text-align: center;
+  color: aliceblue;
+}
+
+#sudoku-grid {
+  border: 4px solid #000;
+}
